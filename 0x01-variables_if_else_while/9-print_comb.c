@@ -6,22 +6,21 @@
 int main(void)
 {
 	int n;
-	int p;
 
 	n = 0;
-	p = 0;
 	while (n < 10)
 	{
-		while (p < 10)
+		if (n == 9)
 		{
 			putchar(n + '0');
-			putchar(p + '0');
-			putchar(',');
-			p++;
 		}
-		p = 0;
+		else
+		{
+		        purchar(n + '0');	
+			putchar(',');
+			putchar(' ');
+		}
 		n++;
 	}
-	putchar('\n');
 	return (0);
 }
