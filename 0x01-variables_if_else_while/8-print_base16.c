@@ -18,7 +18,7 @@ int main(void)
 	while (p <=102)
 	{
 		putchar(p);
-		p++
+		p++;
 	}
 	putchar('\n');
 	return (0);
