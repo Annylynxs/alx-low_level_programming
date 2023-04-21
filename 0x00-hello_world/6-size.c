@@ -12,11 +12,11 @@ int main(void)
 	int d;
 	int b;
 
-	a = sizeof('A');
+	a = sizeof(char);
 	i = sizeof(int);
 	l = sizeof(long);
 	d = sizeof(long long);
-	b = sizeof(3.14);
+	b = sizeof(float);
 	printf("Size of a char: %d byte(s)\n", a);
 	printf("Size of an int: %d byte(s)\n", i);
 	printf("Size of a long int: %ld byte(s)\n", l);
