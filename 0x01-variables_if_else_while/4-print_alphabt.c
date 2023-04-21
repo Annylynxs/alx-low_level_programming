@@ -13,8 +13,8 @@ int main(void)
 		if (n != 113 && n != 101)
 		{
 			putchar(n);
-			n++;
 		}
+		n++;
 	}
 	putchar('\n');
 	return (0);
