@@ -13,7 +13,7 @@ int main(void)
 	while (n < 10)
 	{
 		putchar(n + '0');
-		n==;
+		n++;
 	}
 	while (p <=102)
 	{
