@@ -16,7 +16,7 @@ int main(void)
 		}
 		else
 		{
-		        purchar(n + '0');	
+		        putchar(n + '0');	
 			putchar(',');
 			putchar(' ');
 		}
