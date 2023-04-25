@@ -18,6 +18,7 @@ void print_alphabet_x10(void)
 			_putchar(a);
 			a++;
 		}
+		a = 97;
 		_putchar('\n');
 		n++;
 	}
