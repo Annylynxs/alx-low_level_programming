@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * isalpha - determines if an input is alphabet or number
+ * _isalpha - determines if an input is alphabet or number
  * @c: input
  * Return: (0)
  */
